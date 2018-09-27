@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    p Legutáljára hozzáadott elemek
+    ol
+        each element in recentlyAdded
+            li=element
